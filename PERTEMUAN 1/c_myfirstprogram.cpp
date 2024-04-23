@@ -9,8 +9,8 @@ int main ()  {
     printf("Hello World\n");
 
     printf("Masukkan Nama : ");
-    // scanf("%s", &nama);
-    gets(nama);     // gets: get string
+    // scanf("%s", &nama);   // scanf: hanya bisa menampilkan kata awal
+    gets(nama);     // gets: get string (bisa mengambil banyak data)
 
     printf("Masukkan NIM : ");
     scanf("%d", &nim);
@@ -27,5 +27,6 @@ int main ()  {
 
     printf("NIM : %d\n", nim);
     printf("KOM : %c\n", kom);
-    printf("IP : %.2f\n", ip);
+    printf("IP : %.2f\n", ip);     // %.2f untuk mengatur angka dibelakang koma (2 angka dibelakang koma)
+
 }

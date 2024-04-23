@@ -1,5 +1,5 @@
 #include <iostream>
-#include <iomanip>
+#include <iomanip>     // library untuk mengatur koma
 using namespace std;
 
 int main ()   {
@@ -13,8 +13,8 @@ int main ()   {
     cout << "Hello World" << endl;
 
     cout << "Masukkan Nama : ";
-    // cin >> nama;
-    getline(cin, nama);
+    // cin >> nama;   // cin: hanya mampu memasukkan satu kata dalam satu input
+    getline(cin, nama);   // getline: mampu memasukkan banyak kata dalam satu input
 
     cout << "Masukkan NIM : ";
     cin >> nim;
@@ -31,9 +31,10 @@ int main ()   {
     cout << "NIM : " << nim << endl;
     cout << "KOM : " << kom << endl;
 
-    cout << fixed << setprecision(2);
+    cout << fixed << setprecision(2);     // untuk mengatur angka dibelakang koma (2 angka dibelakang koma)
 
     cout << "IP : " << ip << endl;
 
     return 0;
+
 }
