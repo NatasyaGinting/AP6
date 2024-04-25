@@ -18,7 +18,7 @@ int main() {
         x /= 10;
     }
 
-    cout << "Hasilnya adalah" << ":" << y << endl;
+    cout << "Hasilnya adalah" << " : " << y << endl;
 
     return 0;
     
