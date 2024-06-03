@@ -1,5 +1,5 @@
  #include <iostream>
-#include <iomanip>
+#include <iomanip>  // library untuk mengatur koma
 using namespace std;
 
 int main() {
@@ -14,7 +14,7 @@ int main() {
     tbtot = ((tb / 100) * (tb / 100));
     bmi = bb / tbtot;
 
-    cout << "BMI anda adalah: " << fixed << setprecision(2) << bmi << endl;
+    cout << "BMI anda adalah: " << fixed << setprecision(2) << bmi << endl;  // hanya 2 digit yang tampil setelah titik desimal (koma)
 
     if (bmi < 18.5)
     { cout << "Kategori berat badan kurang" << endl; }

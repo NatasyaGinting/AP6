@@ -9,6 +9,7 @@ int main()
     cout<< "masukkan bilangan: ";
     cin >> bil;
 
+    // if else
      if (bil % 2 == 0) 
     {
         cout << "adalah bilangan genap" << endl;

@@ -7,6 +7,7 @@ int main() {
     cout << "Masukkan bilangan: ";
     cin >> bil;
 
+    // ternary operator (short hand if-else)
     tipe = (bil % 2 == 0) ? "Genap" : "Ganjil";
     cout << tipe << endl;
 
