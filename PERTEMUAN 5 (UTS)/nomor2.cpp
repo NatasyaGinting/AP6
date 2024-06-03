@@ -11,10 +11,10 @@ int main() {
         cout << "bilangan tidak valid (masukkan bilangan positif)" << endl;
     }
 
-    while (x != 0) {
-        bil = x % 10;
-        y += bil;
-        x /= 10;
+    while (x != 0) {  // perulangan while untuk x tidak sama dengan 0
+        bil = x % 10;  // mengambil digit terakhir dari x dengan menggunakan operasi modulus (%)
+        y += bil;  // menjumlahkan digit terakhir tersebut ke variabel y (jumlah dari semua digit)
+        x /= 10;  // membuang digit terakhir dari x dengan membagi x dengan 10 (integer division)
     }
 
     cout << "hasilnya adalah" << ": " << y << endl;

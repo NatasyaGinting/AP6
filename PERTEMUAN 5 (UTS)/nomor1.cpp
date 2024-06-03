@@ -12,7 +12,7 @@ int main() {
         for (int j = 1 ; j <= i ; ++j) {
             cout << n++ << " ";
             if (n > 28)
-                break;
+                break;  // perulangan akan berhenti jika nilai n > 28
         }
         cout << endl;
     }
