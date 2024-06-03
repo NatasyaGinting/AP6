@@ -1,5 +1,6 @@
 #include <iostream>
 using namespace std;
+
 int main () {
     
     for (int i = 1 ; i <= 10 ; i++) {
@@ -44,6 +45,7 @@ int main () {
 
 
     int n, num = 0, sum = 0;
+    // num = nilai suku dari deret ; sum = jumlah total dari semua suku
 
     cout << "Masukkan suku ke: ";
     cin >> n;
@@ -62,6 +64,7 @@ int main () {
     
     cout << "Suku ke " << n << " adalah " << num << endl;
     cout << "Jumlah hingga suku ke " << n << " adalah " << sum << endl;
+
 }
 // output:
 // Masukkan suku ke: 6
