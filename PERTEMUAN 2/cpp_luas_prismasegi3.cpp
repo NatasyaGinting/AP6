@@ -5,6 +5,7 @@
 
 #include <iostream>
 using namespace std;
+
 int main() {
     float a, ta, tp, kelalas, luasalas, lprisma;
 
@@ -28,4 +29,5 @@ int main() {
     lprisma = (2 * luasalas) + (kelalas * tp);
 
     cout << "Luas prisma segitiga = " << lprisma << endl;
+    
 }

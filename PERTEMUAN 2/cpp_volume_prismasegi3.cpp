@@ -2,8 +2,10 @@
 // Volume prisma = luas alas * tinggi prisma
 // luas alas = 1/2 * alas * tinggi alas
 
+
 #include <iostream>
 using namespace std;
+
 int main () {
     float a, ta, tp, luasalas, vprisma;
 
@@ -23,4 +25,5 @@ int main () {
     vprisma = luasalas * tp;
 
     cout << " Volume prisma segitiga = " << vprisma << endl;
+    
 }

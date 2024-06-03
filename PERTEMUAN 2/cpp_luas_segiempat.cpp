@@ -1,7 +1,9 @@
 //Luas segiempat = panjang * lebar
 
+
 #include <iostream>
 using namespace std;
+
 int main() {
     float panjang, lebar, luas;
 

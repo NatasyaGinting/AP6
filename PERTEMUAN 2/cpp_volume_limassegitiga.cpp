@@ -5,6 +5,7 @@
 
 #include <iostream>
 using namespace std;
+
 int main() {
     float a, ts, tl, luasalas, vlimas;
 
@@ -24,4 +25,5 @@ int main() {
     vlimas = (luasalas * tl) / 3;
 
     cout << "Volume limas segitiga = " << vlimas << endl;
+    
 }

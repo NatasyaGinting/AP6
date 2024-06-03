@@ -6,6 +6,7 @@
 
 #include <iostream>
 using namespace std;
+
 int main() {
     float a, t, luasalas, luassisteg, lplimas;
 
@@ -25,4 +26,5 @@ int main() {
     lplimas = luasalas + luassisteg;
 
     cout << "Luas limas = " << lplimas << endl;
+    
 }
