@@ -1,4 +1,4 @@
- #include <iostream>
+#include <iostream>
 #include <iomanip>  // library untuk mengatur koma
 using namespace std;
 
